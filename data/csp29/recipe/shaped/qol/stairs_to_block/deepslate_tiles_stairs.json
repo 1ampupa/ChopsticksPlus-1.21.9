@@ -5,10 +5,10 @@
         "##"
     ],
     "key": {
-        "#": "minecraft:polished_blackstone_brick_stairs"
+        "#": "minecraft:deepslate_tile_stairs"
     },
     "result": {
-        "id": "minecraft:polished_blackstone_bricks",
+        "id": "minecraft:deepslate_tiles",
         "count": 3
     }
 }
