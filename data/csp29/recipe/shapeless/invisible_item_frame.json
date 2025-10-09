@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:item_frame",
+        "#csp29:coloured_glass_pane"
+    ],
+    "result": {
+        "id": "minecraft:item_frame",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Invisible Item Frame"
+            },
+            "minecraft:entity_data": {
+                "id": "minecraft:item_frame",
+                "Invisible": true
+            },
+            "minecraft:rarity": "uncommon"
+        }
+    }
+}

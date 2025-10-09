@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": "#minecraft:wooden_tool_materials",
+    "c": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    "WcW",
+    "WWW",
+    " W "
+  ],
+  "result": {
+    "id": "minecraft:shield",
+    "components": {
+      "minecraft:item_name": "Copper Shield",
+      "minecraft:repairable": {
+        "items": "minecraft:copper_ingot"
+      },
+      "minecraft:repair_cost": 1
+    },
+    "count": 1
+  }
+}

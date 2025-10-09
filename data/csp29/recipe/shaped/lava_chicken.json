@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CLC",
+    "CCC"
+  ],
+  "key": {
+    "C": "minecraft:chicken",
+    "L": "minecraft:lava_bucket"
+  },
+  "result": {
+    "id": "minecraft:cooked_chicken",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 1.6,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:speed",
+                "amplifier": 1,
+                "duration": 300,
+                "ambient": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:jump_boost",
+                "amplifier": 0,
+                "duration": 300,
+                "ambient": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 0,
+                "duration": 100,
+                "ambient": true
+              } 
+            ]
+          },
+          {
+            "type": "minecraft:play_sound",
+            "sound": "minecraft:block.lava.extinguish"
+          }
+        ]
+      },
+      "minecraft:item_name": {
+        "text": "Lava Chicken"
+      },
+      "minecraft:rarity": "uncommon",
+      "minecraft:lore": [
+        {
+          "text": "in big 2025 😭",
+          "color": "gold"
+        },
+        {
+          "text": "A little snack gives you a little boost."
+        }
+      ],
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation": 10,
+        "can_always_eat": true
+      },
+      "minecraft:item_model": "csp29:lava_chicken"
+    },
+    "count": 8
+  }
+}
