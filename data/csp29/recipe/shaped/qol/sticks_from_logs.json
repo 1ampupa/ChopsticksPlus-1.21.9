@@ -4,9 +4,8 @@
         "a": "#minecraft:logs"
     },
     "pattern": [
-        "a  ",
-        "a  ",
-        "   "
+        "a",
+        "a"
     ],
     "result": {
         "id": "minecraft:stick",

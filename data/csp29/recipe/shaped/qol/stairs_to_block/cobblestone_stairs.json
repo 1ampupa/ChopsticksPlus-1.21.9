@@ -1,15 +1,14 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "## ",
-        "## ",
-        "   "
+        "##",
+        "##"
     ],
     "key": {
-        "#": "minecraft:oak_stairs"
+        "#": "minecraft:cobblestone_stairs"
     },
     "result": {
-        "id": "minecraft:oak_planks",
-        "count": 6
+        "id": "minecraft:cobblestone",
+        "count": 3
     }
 }

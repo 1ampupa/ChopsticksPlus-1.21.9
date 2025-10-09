@@ -17,7 +17,8 @@
       "minecraft:repairable": {
         "items": "minecraft:copper_ingot"
       },
-      "minecraft:repair_cost": 1
+      "minecraft:repair_cost": 1,
+      "minecraft:max_damage": 235
     },
     "count": 1
   }

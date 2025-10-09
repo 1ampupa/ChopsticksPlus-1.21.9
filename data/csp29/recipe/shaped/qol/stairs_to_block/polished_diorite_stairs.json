@@ -1,15 +1,14 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "## ",
-        "## ",
-        "   "
+        "##",
+        "##"
     ],
     "key": {
-        "#": "minecraft:oak_stairs"
+        "#": "minecraft:polished_diorite_stairs"
     },
     "result": {
-        "id": "minecraft:oak_planks",
-        "count": 6
+        "id": "minecraft:polished_diorite",
+        "count": 3
     }
 }
