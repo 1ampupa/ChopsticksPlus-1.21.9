@@ -1,5 +1,5 @@
 tellraw @a [{"text":"Welcome to Chopsticks SMP Reborn! ","color":"green","bold":true},\
-{"text":"\nRunning on ChopsticksPlus 1.21.9 Release 1.2.1 Datapack","color":"green","bold":false}]
+{"text":"Running on ChopsticksPlus 1.21.9 Release 1.2.1 Datapack","color":"green","bold":false}]
 
 dialog show @a csp29:patch_notes
 

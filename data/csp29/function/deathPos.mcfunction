@@ -16,11 +16,11 @@ execute as @a[tag=csp29.deathPos] store result storage csp29:deathpos Position.z
  run data get entity @s Pos[2] 1
 
 # Tellraw players their death position
-tellraw @a[tag=csp29.deathPos] [{text:"[Death Position] ",color:"yellow",bold:1},\
- {text:"Your last death position is ",color:"white",bold:0}, \
- {nbt:"Position.x",storage:"csp29:deathpos",color:"red",bold:1}," ", \
- {nbt:"Position.y",storage:"csp29:deathpos",color:"green",bold:1}," ", \
- {nbt:"Position.z",storage:"csp29:deathpos",color:"blue",bold:1}]
+tellraw @a[tag=csp29.deathPos] [{text:"[Death Position] ",color:"yellow",bold:true},\
+ {text:"Your last death position is ",color:"white",bold:false}, \
+ {nbt:"Position.x",storage:"csp29:deathpos",color:"red",bold:true},{"text":" "}, \
+ {nbt:"Position.y",storage:"csp29:deathpos",color:"green",bold:true},{"text":" "}, \
+ {nbt:"Position.z",storage:"csp29:deathpos",color:"blue",bold:true}]
 
 # Reset deathPos scoreboard for all players who have the tag
 execute as @a[tag=csp29.deathPos] run scoreboard players reset @s csp29.deathPos
