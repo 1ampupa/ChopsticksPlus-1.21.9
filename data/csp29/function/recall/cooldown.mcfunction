@@ -10,7 +10,7 @@ execute as @a if score @s csp29.recallCooldown matches 1.. run title @s actionba
 execute as @a if score @s csp29.recallCooldown matches 0 run title @s title ""
 
 execute as @a if score @s csp29.recallCooldown matches 0 run title @s subtitle \
-{"text":"Recall is READY to use!","color":"green","bold":true}
+{"text":"Recall is now READY to use!","color":"green","bold":true}
 
 execute as @a if score @s csp29.recallCooldown matches 0 run scoreboard players set @s csp29.recallCooldown -1
 execute as @a if score @s csp29.recallCooldown matches ..0 run scoreboard players enable @s recall
