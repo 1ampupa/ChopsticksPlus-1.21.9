@@ -5,10 +5,10 @@
         "##"
     ],
     "key": {
-        "#": "minecraft:sandstone_stairs"
+        "#": "minecraft:resin_brick_stairs"
     },
     "result": {
-        "id": "minecraft:sandstone",
+        "id": "minecraft:resin_bricks",
         "count": 3
     }
 }
