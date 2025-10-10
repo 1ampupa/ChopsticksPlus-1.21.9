@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [
+    {
+      "text": "PATCH NOTE",
+      "color": "green",
+      "bold": true
+    }
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "ChopsticksPlus 1.21.9 Release 1.2.1 Datapack ",
+      "width": 500
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "+ ADDED +",
+        "color": "green",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:creeper_banner_pattern"
+      },
+      "description": "Patch note",
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:compass"
+      },
+      "description": "Last Death Position",
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:oak_slab"
+      },
+      "description": "Ability to craft 2 slabs into a full block.",
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:oak_stairs"
+      },
+      "description": "Ability to craft 4 stairs into 3 full blocks.",
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "- REMOVED -",
+        "color": "red",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "! ADJUSTED !",
+        "color": "yellow",
+        "bold": true
+      }
+    }
+  ],
+  "exit_action": {
+    "label": "Okay, cool!"
+  },
+  "actions": [
+    {
+      "label": "Visit GitHub",
+      "tooltip": "Bring you to ChopstickPlus 1.21.9 Repository GitHub using your default external browser.",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://github.com/1ampupa/ChopsticksPlus-1.21.9"
+      }
+    }
+  ]
+}
