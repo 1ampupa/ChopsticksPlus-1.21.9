@@ -20,16 +20,16 @@ the best experience.
 - Ability to craft 2 logs into 16 sticks.
 - Ability to craft 2 slabs into a full block.
 - Ability to craft 4 stairs into 3 full blocks.
-- Ability to craft a invisible glow / non-glow item frame
-- Ability to craft a copper torch in simplier way.
-- Ability to smelt or blast raw copper / iron / gold block into a full block.
-- Ability to smoke a rotten flesh to a leather.
+- Ability to craft an invisible glow / non-glow item frame 
+- Ability to craft a copper torch more simply. 
+- Ability to smelt or blast a raw copper/iron/gold block into a full block. 
+- Ability to smoke rotten flesh for leather. 
 
 - GAMEPLAY -
 - Death Position upon player's death.
-- Recall system with ability to teleport back to assigned position with cooldown.
+- Recall system with the ability to teleport back to the assigned position with a cooldown. 
 
 - MODIFICATION -
-- Player able to drop a player head upon death.
+- Player can drop a player's head upon death.
 
 = HAVE FUN AND THANK YOU :D =
