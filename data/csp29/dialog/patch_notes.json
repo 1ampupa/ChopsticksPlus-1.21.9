@@ -10,7 +10,7 @@
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": "ChopsticksPlus 1.21.9 Release 1.2.1 Datapack ",
+      "contents": "ChopsticksPlus 1.21.9 - 1.21.10 Release 1.3 Datapack ",
       "width": 500
     },
     {
@@ -24,33 +24,9 @@
     {
       "type": "minecraft:item",
       "item": {
-        "id": "minecraft:creeper_banner_pattern"
+        "id": "minecraft:clock"
       },
-      "description": "Patch note",
-      "show_tooltip": false
-    },
-    {
-      "type": "minecraft:item",
-      "item": {
-        "id": "minecraft:compass"
-      },
-      "description": "Last Death Position",
-      "show_tooltip": false
-    },
-    {
-      "type": "minecraft:item",
-      "item": {
-        "id": "minecraft:oak_slab"
-      },
-      "description": "Ability to craft 2 slabs into a full block.",
-      "show_tooltip": false
-    },
-    {
-      "type": "minecraft:item",
-      "item": {
-        "id": "minecraft:oak_stairs"
-      },
-      "description": "Ability to craft 4 stairs into 3 full blocks.",
+      "description": "Clock now display day and time",
       "show_tooltip": false
     },
     {
@@ -68,6 +44,14 @@
         "color": "yellow",
         "bold": true
       }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:light"
+      },
+      "description": "Recall visual regarding text and effects.",
+      "show_tooltip": false
     }
   ],
   "exit_action": {
