@@ -2,6 +2,7 @@
     "values": [
         "csp29:load",
         "csp29:recall/setup",
-        "csp29:deathpos/setup"
+        "csp29:deathpos/setup",
+        "csp29:realtimeclock/setup"
     ]
 }
