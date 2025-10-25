@@ -12,9 +12,9 @@ execute as @a[tag=csp29.recalling] at @s run playsound minecraft:block.beacon.ac
 
 execute as @a[tag=csp29.recalling] at @s run particle minecraft:firework ~ ~ ~ 1 1 1 0.75 200
 
-tellraw @a[tag=csp29.recalling] {"text":"Recall completed; Cooldown for 3 minutes.","color":"green","bold":false}
+tellraw @a[tag=csp29.recalling] {text:"Recall completed! Recall cooldown active for 3 minutes.",color:"green",bold:false}
 title @a[tag=csp29.recalling] title ""
-title @a[tag=csp29.recalling] subtitle {"text":"Back to safety.","color":"green"}
+title @a[tag=csp29.recalling] subtitle {text:"Back to safety.",bold:true,color:"green"}
 
 scoreboard players set @a[tag=csp29.recalling] csp29.recallCooldown 3600
 tag @a[tag=csp29.recalling] remove csp29.recalling
