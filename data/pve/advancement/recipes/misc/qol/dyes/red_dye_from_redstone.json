@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "has_redstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:redstone"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pve:shapeless/qol/dyes/red_dye_from_redstone"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_redstone",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pve:shapeless/qol/dyes/red_dye_from_redstone"
+        ]
+    }
+}

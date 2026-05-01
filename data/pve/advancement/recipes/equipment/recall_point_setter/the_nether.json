@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "has_ender_eye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye"
+                    }
+                ]
+            }
+        },
+        "has_blaze_rod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blaze_rod"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pve:shaped/recall_point_setter/the_nether"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_ender_eye",
+            "has_blaze_rod",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pve:shaped/recall_point_setter/the_nether"
+        ]
+    }
+}

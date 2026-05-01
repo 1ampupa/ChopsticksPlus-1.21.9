@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "has_copper_nugget": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:copper_nugget"
+                    }
+                ]
+            }
+        },
+        "has_torch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:torch"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pve:shaped/qol/copper_torch"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_copper_nugget",
+            "has_torch",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pve:shaped/qol/copper_torch"
+        ]
+    }
+}

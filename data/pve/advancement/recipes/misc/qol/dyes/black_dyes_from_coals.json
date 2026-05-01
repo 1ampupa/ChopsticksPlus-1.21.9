@@ -1,0 +1,34 @@
+{
+    "criteria": {
+        "has_coal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:coal",
+                            "minecraft:charcoal"
+                        ]
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pve:shapeless/qol/dyes/black_dye_from_coals"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_coal",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pve:shapeless/qol/dyes/black_dye_from_coals"
+        ]
+    }
+}

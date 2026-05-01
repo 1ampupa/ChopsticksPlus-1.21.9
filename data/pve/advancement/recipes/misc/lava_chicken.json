@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "has_lava": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lava_bucket"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pve:shaped/lava_chicken"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_lava",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pve:shaped/lava_chicken"
+        ]
+    }
+}

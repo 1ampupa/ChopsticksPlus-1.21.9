@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "has_wheat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wheat"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pve:shapeless/qol/two_by_two_able/bread_2x2"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_wheat",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pve:shapeless/qol/two_by_two_able/bread_2x2"
+        ]
+    }
+}

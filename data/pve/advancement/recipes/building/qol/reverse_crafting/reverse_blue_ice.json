@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "has_blue_ice": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_ice"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pve:shapeless/qol/reverse_crafting/reverse_blue_ice"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_blue_ice",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pve:shapeless/qol/reverse_crafting/reverse_blue_ice"
+        ]
+    }
+}

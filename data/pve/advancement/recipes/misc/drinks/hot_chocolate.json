@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "has_cocoa_beans": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cocoa_beans"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pve:shapeless/drinks/hot_chocolate"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_cocoa_beans",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pve:shapeless/drinks/hot_chocolate"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "has_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:wool"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pve:shapeless/qol/reverse_crafting/wool_to_strings"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_wool",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pve:shapeless/qol/reverse_crafting/wool_to_strings"
+        ]
+    }
+}
