@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
+    "category": "building",
     "ingredients": [
         "minecraft:glow_item_frame",
         "#pve:glass_panes"
