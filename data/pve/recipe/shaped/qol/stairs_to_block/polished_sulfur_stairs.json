@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": "minecraft:polished_sulfur_stairs"
+    },
+    "result": {
+        "id": "minecraft:polished_sulfur",
+        "count": 3
+    }
+}
