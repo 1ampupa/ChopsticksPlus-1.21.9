@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "has_logs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:logs"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pve:shaped/qol/sticks_from_logs"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_logs",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pve:shaped/qol/sticks_from_logs"
+        ]
+    }
+}

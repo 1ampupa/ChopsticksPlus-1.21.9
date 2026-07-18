@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "has_copper_ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:copper_ingot"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pve:shaped/copper_shears"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_copper_ingot",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pve:shaped/copper_shears"
+        ]
+    }
+}

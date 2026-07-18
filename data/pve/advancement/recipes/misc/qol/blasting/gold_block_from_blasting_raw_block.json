@@ -1,0 +1,32 @@
+{
+    "parent": "pve:recipes/root",
+    "criteria": {
+        "has_the_raw_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:raw_gold_block"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pve:blasting/qol/gold_block_from_raw_block"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_the_raw_block",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pve:blasting/qol/gold_block_from_raw_block"
+        ]
+    }
+}

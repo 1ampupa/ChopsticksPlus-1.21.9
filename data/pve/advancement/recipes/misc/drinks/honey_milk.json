@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "has_honey_bottle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:honey_bottle"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pve:shapeless/drinks/honey_milk"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_honey_bottle",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pve:shapeless/drinks/honey_milk"
+        ]
+    }
+}

@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
+    "category": "building",
     "ingredients": [
         "minecraft:dark_oak_slab",
         "minecraft:dark_oak_slab"

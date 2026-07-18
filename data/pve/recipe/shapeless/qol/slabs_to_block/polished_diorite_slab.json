@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
+    "category": "building",
     "ingredients": [
         "minecraft:polished_diorite_slab",
         "minecraft:polished_diorite_slab"

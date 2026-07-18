@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
+    "category": "building",
     "ingredients": [
         "minecraft:smooth_stone_slab",
         "minecraft:smooth_stone_slab"

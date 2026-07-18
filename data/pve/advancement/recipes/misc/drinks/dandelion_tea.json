@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "has_dandelion": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:dandelion"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pve:shapeless/drinks/dandelion_tea"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_dandelion",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pve:shapeless/drinks/dandelion_tea"
+        ]
+    }
+}

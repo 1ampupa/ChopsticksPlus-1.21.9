@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "has_glow_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:glow_berries"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pve:shapeless/qol/glow_ink_sac_from_glow_berries"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_glow_berries",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pve:shapeless/qol/glow_ink_sac_from_glow_berries"
+        ]
+    }
+}
