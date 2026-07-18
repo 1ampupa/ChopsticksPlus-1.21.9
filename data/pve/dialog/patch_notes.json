@@ -4,7 +4,7 @@
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": "pupa's VanillaEnhanced 1.6.0 Datapack ",
+      "contents": "pupa's VanillaEnhanced 1.7.0 Datapack ",
       "width": 500
     },
     {
@@ -18,17 +18,25 @@
     {
       "type": "minecraft:item",
       "item": {
-        "id": "minecraft:emerald"
+        "id": "minecraft:crafting_table"
       },
-      "description": "Added custom trades for farmer, fisherman, and smiths.",
+      "description": "Now you can unlock custom recipes by obtaining the main ingredient. (exception for combine-to-full-block)",
       "show_tooltip": false
     },
     {
       "type": "minecraft:item",
       "item": {
-        "id": "minecraft:ender_pearl"
+        "id": "minecraft:sulfur"
       },
-      "description": "Recall Point Setter Item now has casting animation.",
+      "description": "Add combine-to-full-block for sulfur and cinnabar blocksets.",
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:blast_furnace"
+      },
+      "description": "Rebalanced smelting a raw ore block.",
       "show_tooltip": false
     }
   ],

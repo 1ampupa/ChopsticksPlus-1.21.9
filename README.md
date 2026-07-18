@@ -49,7 +49,7 @@ For VS Code users, you are **recommended** to install an extension named `Datapa
 
 1. To use this datapack, you're **recommended** to use the correct version of Minecraft.
 2. This datapack will **NOT** add any new feature that modifies or alters the vanilla world generation, such as a new structure, dimension, or world generation mechanic.
-3. This datapack is **NOT** planned for **backporting** for Minecraft version 1.21.8 and older.
+3. This datapack is **NOT** planned for **backporting** for Minecraft version 1.21.8 and older. (1.21.7 is possible but NOT yet tested.)
 4. This repository might not be actively maintained due to my school work and other commitments.
 
 ### HAVE FUN AND THANK YOU :D
