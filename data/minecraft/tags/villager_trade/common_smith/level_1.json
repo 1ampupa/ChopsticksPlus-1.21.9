@@ -1,6 +1,6 @@
 {
     "values": [
-        "pve:smith/level_1/copper_ingot_emerald",
-        "pve:smith/level_1/amethyst_shard_emerald"
+        "pve:common_smith/level_1/copper_ingot_emerald",
+        "pve:common_smith/level_1/amethyst_shard_emerald"
     ]
 }

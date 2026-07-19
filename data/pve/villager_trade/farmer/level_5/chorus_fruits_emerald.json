@@ -1,0 +1,17 @@
+{
+    "wants": {
+        "id": "minecraft:chorus_fruit",
+        "count": {
+            "type": "minecraft:uniform",
+            "min": 9,
+            "max": 12
+        }
+    },
+    "max_uses": 16,
+    "reputation_discount": 0.05,
+    "gives": {
+        "id": "minecraft:emerald",
+        "count": 1
+    },
+    "xp": 30
+}
