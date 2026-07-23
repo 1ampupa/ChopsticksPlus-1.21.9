@@ -4,8 +4,24 @@
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": "pupa's VanillaEnhanced 1.7.0 Datapack ",
+      "contents": "pupa's VanillaEnhanced 1.7.1 Datapack ",
       "width": 500
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "+ Additions +",
+        "color": "green",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:emerald"
+      },
+      "description": "Added some new villager trades for farmer and weaponsmith.",
+      "show_tooltip": false
     },
     {
       "type": "minecraft:plain_message",
